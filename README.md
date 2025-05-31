@@ -30,15 +30,25 @@ Prompting Pattern: Zero-shot Prompting
 ## Question 2: Why did the Roman Empire fall?
 
 •	ChatGPT: The fall of the Roman Empire was due to a combination of internal and external factors. Internally, economic troubles, overreliance on slave labor, political instability, and corruption weakened the empire. Military overspending and a decline in civic virtue also contributed. Externally, invasions by Germanic tribes such as the Visigoths and Vandals, as well as the Huns from Central Asia, placed immense pressure on the empire's borders. The Western Roman Empire officially fell in 476 AD when the last emperor, Romulus Augustulus, was deposed by the Germanic chieftain Odoacer. However, the Eastern Roman Empire (Byzantine Empire) continued for nearly a thousand more years.
+
 •	Claude: The fall was driven by:
-.   Internal corruption: Weak leadership, inflation, and excessive taxation weakened governance2.
-.	Division: The empire split into Eastern (Byzantine) and Western halves under Diocletian, diluting resources2.
+.   Internal corruption: Weak leadership, inflation, and excessive taxation weakened governance.
+
+.	Division: The empire split into Eastern (Byzantine) and Western halves under Diocletian, diluting resources.
+
 .	Germanic invasions: Tribes like the Visigoths exploited the Western Empire's instability, culminating in Rome's sack in 410 CE2.
+
 •	Perplexity: The fall of the Roman Empire was a complex, multi-century process rather than a single event. Key factors included:
+
 .	Internal problems: Political instability with rapid emperor turnover, corruption, economic difficulties, overreliance on slave labor, excessive military spending, and widening social inequality.
+
 .	External pressures: Continuous invasions by Germanic tribes and other groups (Visigoths, Ostrogoths, Vandals, Huns) along the lengthy imperial borders.
+
+
 .	Administrative challenges: The empire became too large to govern effectively, leading to its division into Western and Eastern halves in 395 CE.
+
 .	Military weaknesses: Increasing reliance on mercenaries with questionable loyalty, declining military discipline, and difficulty recruiting Roman citizens.
+
 .	The Western Roman Empire officially ended in 476 CE when the Germanic leader Odoacer deposed Emperor Romulus Augustulus, while the Eastern (Byzantine) Empire continued until 1453 CE.
     
 ## Question 2 Analysis:
@@ -50,7 +60,9 @@ Prompting Pattern: Chain-of-Thought
 ## Questions – 3: Is 97 a prime number?
 
 •	ChatGPT: Yes, 97 is a prime number. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. When checking for divisibility, 97 cannot be evenly divided by any number other than 1 and 97. It is not divisible by 2, 3, 5, or 7 (the primes less than √97 ≈ 9.8), which confirms that 97 is a prime.
+
 •	Claude: Yes. A prime number has exactly two factors: 1 and itself. Since 97 is only divisible by 1 and 97, it is prime.
+
 •	Perplexity: To determine if 97 is prime, I need to check if it's divisible by any number other than 1 and itself.
 First, I'll check for divisibility by small primes:
 97 ÷ 2 = 48.5 (not divisible by 2)
@@ -110,11 +122,13 @@ Prompting Pattern: Zero-shot
 
 ## Question 6: Is it cheaper to take a bus or a train from Chennai to Bangalore?
 
+•	ChatGPT:
 Answer:
 In general, taking a bus from Chennai to Bangalore is usually cheaper than taking a train, especially if you opt for non-AC or sleeper buses.
 •	Bus fares typically range from ₹350 to ₹800 depending on the type (ordinary, semi-sleeper, sleeper, AC).
 •	Train fares range from ₹160 (general class) to ₹700 (AC sleeper) based on class and train type.
 However, trains might be more economical if booked in advance via IRCTC. Buses offer greater flexibility in timing and last-minute booking. Comfort and duration can also vary, with trains being smoother and less prone to road traffic delays.
+
 •	Claude:
 To determine which is cheaper between a bus and train from Chennai to Bangalore, I need to analyze the costs of both options:
 Step 1: Consider bus options.
@@ -129,6 +143,7 @@ Step 3: Compare base costs.
 •	The cheapest train option (General/Unreserved) is around ₹200-300.
 Based on this analysis, trains generally offer cheaper base fares than buses for this route. However, when comparing similar comfort levels (e.g., AC travel), the price difference becomes smaller, and buses might sometimes be cheaper than equivalent train classes.
 In conclusion, trains are typically cheaper, especially for basic travel, but the final answer depends on the specific class and timing chosen.
+
 •	Perplexity:
 A: Insufficient data in provided sources to compare costs.
 
@@ -144,16 +159,22 @@ Prompting Pattern: Few-shot or direct
 
 •	ChatGPT:
 Happiness is partially a choice, though it is influenced by both internal attitudes and external circumstances. People can choose how they respond to situations, practice gratitude, focus on positives, and cultivate mindfulness—all of which promote happiness. However, factors such as mental health, socio-economic conditions, relationships, and environment also significantly impact a person's emotional well-being. So while mindset plays a strong role, happiness is not solely a matter of choice; it is a balance between choice and circumstance.
+
 •	Claude:
 The question of whether happiness is a choice involves multiple perspectives and considerations.
 From a psychological perspective, happiness has both voluntary and involuntary components. We can make choices that influence our happiness, such as practicing gratitude, engaging in meaningful activities, and cultivating positive relationships. Research in positive psychology supports that intentional activities can account for a significant portion of our happiness levels.
 However, there are important limitations to the "happiness is a choice" concept:
+
 •	Biological factors: Genetic predispositions and neurochemistry significantly influence our baseline happiness levels.
+
 •	External circumstances: Severe hardships, trauma, and socioeconomic conditions can substantially impact wellbeing beyond individual control.
+
 •	Mental health conditions: Clinical depression and anxiety disorders involve neurological mechanisms that can't simply be "chosen away."
+
 From a philosophical standpoint, Stoics like Epictetus argued that happiness comes from focusing on what we can control (our judgments and attitudes) rather than external events. Buddhist traditions similarly emphasize that happiness stems from our relationship with our thoughts, not circumstances themselves.
 The most balanced view seems to be that happiness is partially a choice. While we can't simply decide to be happy regardless of circumstances, we do have agency in how we respond to life's events, what meaning we assign to them, and which practices we employ to cultivate wellbeing.
 In conclusion, happiness is neither entirely chosen nor entirely determined by factors outside our control—it exists in the complex interplay between choice, circumstance, biology, and learned patterns of thinking.
+
 •	Perplexity:
 A: Subjective question; no direct insights from sources.
 
@@ -171,12 +192,19 @@ Prompting Pattern: Reflection + Open-ended
  
 •	Claude:
 •	Wi-Fi and Bluetooth are both wireless communication technologies, but they serve different purposes and have distinct characteristics:
+
 •	Range and Power: Wi-Fi offers a much longer range (up to 100 meters indoors) and higher power consumption, making it suitable for whole-home or office coverage. Bluetooth has a shorter range (typically 10 meters) with lower power requirements, making it ideal for personal-area networks.
+
 •	Data Transfer Speed: Wi-Fi is significantly faster, with modern standards (Wi-Fi 6/6E) reaching speeds of 9.6 Gbps. Bluetooth is slower, with Bluetooth 5 reaching a theoretical maximum of 50 Mbps, though real-world speeds are typically lower.
+
 •	Primary Use Cases: Wi-Fi excels at internet connectivity, network access, and high-bandwidth applications like streaming video. Bluetooth specializes in device-to-device connections for peripherals, audio streaming, and IoT applications where low power is critical.
+
 •	Network Type: Wi-Fi creates infrastructure networks that allow multiple devices to connect to a central access point. Bluetooth typically creates point-to-point connections or small personal area networks.
+
 •	Security: Both technologies support encryption, but Wi-Fi networks generally implement more robust security protocols like WPA3, while Bluetooth uses different security mechanisms appropriate for its use cases.
+
 •	Energy Efficiency: Bluetooth is significantly more energy-efficient, particularly with Bluetooth Low Energy (BLE), making it suitable for battery-powered devices. Wi-Fi consumes more power but offers features like power-saving modes.
+
 •	These differences make Wi-Fi and Bluetooth complementary rather than competing technologies, with each excelling in different scenarios based on range, speed, power, and connection type requirements.
 
 •	Perplexity:
